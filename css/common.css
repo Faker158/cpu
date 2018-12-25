@@ -1,0 +1,51 @@
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{border: none; vertical-align:middle;}
+a{text-decoration: none;}
+
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+
+.gWidth{
+	width: 997px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+.c_p{
+	font-size: 16px;
+	color: #000;
+	margin-top: 30px;
+	margin-left: 11px;
+}
+.c_p2{
+	font-size: 16px;
+	color: #000;
+	margin-top: 19px;
+	margin-left: 11px;
+}
+.c_e{
+	font-size: 12px;
+	color: #999999;
+	line-height: 21px;
+	width: 206px;
+	margin-left: 11px;
+	margin-top: 5px;
+}
+.mr{
+	margin-right: 18px;
+}
+.mt{
+	margin-top: 33px;
+}
+
+
+		/*重置样式表  清除默认样式*/
